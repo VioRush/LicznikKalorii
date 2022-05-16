@@ -1,0 +1,13 @@
+Woda 0
+Pomidor 19
+Banan 89
+Jablko 57
+Platki owsiane 389
+Chleb 227
+Ziemniaki 77
+Kurczak 121
+Orzechy 654
+Kawa 7
+Ryz 112
+Szynka 96
+Cukierki 600

@@ -1,0 +1,27 @@
+﻿<Window x:Class="LicznikKalorii.TabelaKalorii"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:LicznikKalorii"
+        mc:Ignorable="d"
+        WindowStartupLocation="CenterScreen"
+        Title="TabelaKalorii" Height="550" Width="900">
+    <Grid>
+        <Grid.Background>
+            <ImageBrush ImageSource="background.png" Stretch="UniformToFill"/>
+        </Grid.Background>
+        <Image Name="prom" Source="title.png" HorizontalAlignment="Center" Height="54" Margin="10,10,0,0" VerticalAlignment="Top" Width="395" RenderTransformOrigin="0.505,0.686"/>
+        <ListView Name="Tabela" HorizontalAlignment="Center" Height="238" VerticalAlignment="Center" Width="367" Margin="272,206,254.6,76.8" >
+            <ListView.View>
+                <GridView>
+                    <GridViewColumn/>
+                </GridView>
+            </ListView.View>
+        </ListView>
+        <TextBox HorizontalAlignment="Left" Height="30" Margin="272,153,0,0" TextWrapping="Wrap" Text="Tabela kalorii" VerticalAlignment="Top" FontSize="20" Width="367" TextAlignment="Center" Background="#FF74B073" FontFamily="Book Antiqua"/>
+        <Button Content="Powrót" HorizontalAlignment="Left" Margin="24,24,0,0" VerticalAlignment="Top" Width="100" Height="23" Click="Powrot_Click"/>
+
+    </Grid>
+
+</Window>

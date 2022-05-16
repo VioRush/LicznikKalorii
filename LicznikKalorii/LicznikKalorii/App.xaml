@@ -1,0 +1,29 @@
+﻿<Application x:Class="LicznikKalorii.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:local="clr-namespace:LicznikKalorii"
+             StartupUri="MainWindow.xaml">
+    <Application.Resources>
+        <Style TargetType="Label">
+            <Setter Property="FontFamily" Value="Book Antiqua"/>
+            <Setter Property="Background" Value="#FF74B073" />
+            <Setter Property="FontSize" Value="14"/>
+        </Style>
+        
+        <Style TargetType="MenuItem">
+            <Setter Property="HorizontalAlignment" Value="Center" />
+            <Setter Property="FontFamily" Value="Modern No. 20"/>
+            <Setter Property="FontSize" Value="14"/>
+        </Style>
+
+        <Style TargetType="TextBlock">
+            <Setter Property="FontFamily" Value="Book Antiqua"/>
+            <Setter Property="FontSize" Value="14"/>
+        </Style>
+
+        <Style TargetType="Button">
+            <Setter Property="Background" Value="#FFE8A86D" />
+            <Setter Property="FontSize" Value="14"/>
+        </Style>
+    </Application.Resources>
+</Application>
